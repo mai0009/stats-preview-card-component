@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+.overall{
+    margin:auto;
+    margin-top:22vh;
+    margin-bottom: 22vh;
+    height: 50vh;
+    width: 70vw;
+}
+.card{
+    background-color: hsl(244, 38%, 16%);
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    padding: 40px;
+    color: white ;
+    font-family: 'Outfit', sans-serif;
+    text-align: left;
+    font-weight: 700;
+    float:left;
+    font-size:24px;
+}
+.paragraph{
+    color:hsla(0, 0%, 100%, 0.6);
+    font-size: 10px;
+    font-weight: 400;
+    padding:5px;
+    margin:5px;
+}
+.picture{
+    width:50%;
+    background-image:linear-gradient(hsla(277, 79%, 46%, 0.5), hsla(277, 79%, 46%, 0.5)), url(images/image-header-desktop.jpg);
+    background-size: cover;
+    height: 100%;
+    display: inline-block;
+    
+}
+span{
+    color: hsl(277, 64%, 61%);
+}
+.stats{
+    display:inline-block;
+    width: 25%;
+    padding:5px;
+    margin:8px;
+    text-transform:uppercase;
+    font-weight: 400;
+    font-size:15px;
+}
+.stat-heading{
+    font-size: 10px;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+.attribution{
+    color:white;
+}
